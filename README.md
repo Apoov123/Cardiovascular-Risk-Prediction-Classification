@@ -68,3 +68,7 @@ Predict variable (desired target)
 
 * In glucose level, we can see some outliers in both kinds of people(who are at risk and not at risk). But the people who have high glucose levels are coming into the category of CVR. So we can conclude that it's even one of the factors which may contribute to CVR.
 
+The accuracy of some models were increased after hyper parameter tuning, still Adaboost and naive bayes are the best performing models.
+Between those, if we compare Naive Bayes and Adaboost with accuracy and recall, Naive Bayes is the best performance model.
+
+
