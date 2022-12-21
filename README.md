@@ -1,6 +1,7 @@
 # Cardiovascular-Risk-Prediction-Classification
 ![Heart failure - shutterstock_1663310782](https://user-images.githubusercontent.com/102784806/208307488-57127cbc-4fe3-4b46-8707-a65f6648bbb5.jpg)
 
+
 ## Problem Statement
 
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk factors.
@@ -44,7 +45,7 @@ Medical(current)
 
  • BMI: Body Mass Index (Continuous)
 
- • Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large         number of possible values.)
+ • Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large          number of possible values.)
 
  • Glucose: glucose level (Continuous)
 
@@ -58,7 +59,7 @@ Predict variable (desired target)
 
 * The major people who are having Cardiovascular Risk(CVR) are at the age of 50-70.
 
-* The cholesterol level of people is the same for both kinds of people who are at risk of CVR and not at risk of CVR. Instead fewer people who are not at risk of CVR are having high Cholesterol levels.
+* The cholesterol level of people is the same for both kinds of people who are at risk of CVR and not at risk of CVR. Instead fewer people who are not at risk of CVR     are having high Cholesterol levels.
 
 * If we take sysBP and diaBP together into consideration, then most of the people are having normal BP. So it's hard to conclude here about the CVR.
 
@@ -66,7 +67,7 @@ Predict variable (desired target)
 
 * Many people are having normal heart rate ranges, so it's not appropriate to come into conclusion about the CVR at this stage.
 
-* In glucose level, we can see some outliers in both kinds of people(who are at risk and not at risk). But the people who have high glucose levels are coming into the category of CVR. So we can conclude that it's even one of the factors which may contribute to CVR.
+* In glucose level, we can see some outliers in both kinds of people(who are at risk and not at risk). But the people who have high glucose levels are coming into the   category of CVR. So we can conclude that it's even one of the factors which may contribute to CVR.
 
 The accuracy of some models were increased after hyper parameter tuning, still Adaboost and naive bayes are the best performing models.
 Between those, if we compare Naive Bayes and Adaboost with accuracy and recall, Naive Bayes is the best performance model.
